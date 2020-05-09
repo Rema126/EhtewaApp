@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/fff"
+    android:orientation="vertical"
+    tools:context=".Ratting"
+    >
+
+
+    <include
+        android:id="@+id/tool"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="monospace"
+            android:text="تقييمك يهمنا"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/penilaian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="1" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="105dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="monospace"
+            android:background="#A6336699"
+            android:text="قيّمنا"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</LinearLayout>

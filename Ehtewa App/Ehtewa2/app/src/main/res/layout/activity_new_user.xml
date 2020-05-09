@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fff"
+    android:orientation="vertical"
+    tools:context=".newUser">
+
+    <include
+        android:id="@+id/tool"
+        layout="@layout/toolbar" />
+
+
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="292dp"
+        android:ems="10"
+        android:hint="البريد الالكتروني"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/pwdInp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pwdInp"
+        app:layout_constraintTop_toBottomOf="@+id/tool" />
+
+    <EditText
+        android:id="@+id/pwdInp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="كلمة المرور"
+        android:inputType="textPassword"
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mail" />
+
+    <Button
+        android:id="@+id/signUpbtn"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        android:background="#A6336699"
+        android:text="انشاء"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pwdInp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="104dp"
+        android:text="تسجيل مستخدم جديد"
+        android:textColor="#336699"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/mail"
+        app:layout_constraintEnd_toEndOf="@+id/mail"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/mail" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/signUpbtn"
+        app:layout_constraintStart_toStartOf="@+id/signUpbtn"
+        app:layout_constraintTop_toBottomOf="@+id/signUpbtn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

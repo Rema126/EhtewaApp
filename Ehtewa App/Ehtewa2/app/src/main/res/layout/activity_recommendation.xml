@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recommendation"
+    android:background="@drawable/fff">
+    <include
+        android:id="@+id/tool"
+        layout="@layout/toolbar"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="36dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="50sp"
+                android:textAlignment="center"
+                android:text="توصيات إحتِوَاءْ"
+                android:layout_marginTop="55dp"
+                android:textColor="@color/blue"/>
+
+
+            <TextView
+                android:id="@+id/multiAutoCompleteTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" • الحرص على جعل الطفل يتواصل مع من حوله و أن يكون
+التواصل بصريًا ولفظيًا ، وتشجيعه على ذلك."
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="  •  تشجيع الطفل على القيام بعمل أو مبادرة و زرع الثقة به ، و تشجيعه للاعتماد على نفسه. "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="  •  عدم عزل اطفال ذوي الاحتياجات الخاصة أو الخجل من عاداتهم."
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:text="  •  استقلالية طفلك هي أهم شيء ، بحيث يكون شخصًا معتمدًا على نفسه في أبسط الامور ، حتى تخلق منه فيما بعد شخصًا قادرًا مع الوقت على الاستقلال بحياته."
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="117dp"
+                android:layout_marginTop="48dp"
+                android:text="  •  عدم المبالغة في اعاقة طفلك مهما كانت والتعايش معها بحب و صبر و استيعاب مسؤوليتها على اكمل وجه."
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:text="  •  عدم التهميش و اعتاره ابنًا من الدرجة الثانية ، بمعنى اشعاره بالشفقة و العطف عليه ، بل يجب عليهم الحرص على مشاركته الفعالة في كل شيء، و أخذ رأيه مثله مثل الابن غير المعاق ، و إبداء النصيحة له أو توجيهه فقط ، و ترك القرار النهائي له هو فقط دون أي تدخل من الأسرة."
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

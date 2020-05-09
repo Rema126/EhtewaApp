@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_alignParentStart="false"
+    android:layout_alignParentTop="false"
+    android:layout_alignParentEnd="false"
+    android:layout_centerHorizontal="false"
+    android:layoutDirection="rtl"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="الرئيسية" />
+        <item
+            android:id="@+id/nav_Consultants"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="الاستشاريين"
+            />
+
+      <!--  <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="الرسائل" />-->
+
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="الإعدادات" />
+    </group>
+
+
+
+</menu>

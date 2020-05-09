@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fff"
+    tools:context=".login"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/tool"
+        layout="@layout/toolbar"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="304dp"
+        android:ems="10"
+        android:hint="البريد الالكتروني "
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pwdInp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="كلمة المرور"
+        android:inputType="textPassword"
+        android:textAlignment="viewEnd"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+
+    <Button
+        android:id="@+id/logInBtn"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:background="#A6336699"
+        android:text="دخول"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pwdInp" />
+
+    <Button
+        android:id="@+id/forgetPass"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="64dp"
+        android:background="#A6336699"
+        android:text="نسيت كلمة المرور؟"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pwdInp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="تسجيل الدخول"
+        android:textColor="#336699"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/logInBtn"
+        app:layout_constraintEnd_toEndOf="@+id/email"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.247" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/forgetPass"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/forgetPass"
+        app:layout_constraintTop_toBottomOf="@+id/forgetPass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "134405837793",
+    "firebase_url": "https://ehtewa-20369.firebaseio.com",
+    "project_id": "ehtewa-20369",
+    "storage_bucket": "ehtewa-20369.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134405837793:android:b72f6bf45eccffabf1f8a0",
+        "android_client_info": {
+          "package_name": "com.example.ehtewa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134405837793-89ikt5k8iccldqncvfas8bgo22ncf1a2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ehtewa",
+            "certificate_hash": "c1c4a6a41139d4b2c4ea70fe85143043b2de8803"
+          }
+        },
+        {
+          "client_id": "134405837793-rpq74ag6q5dj3b6aqis0g64n645e930g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ehtewa",
+            "certificate_hash": "4717038bcea435020f2436ffa95a801b5af45e45"
+          }
+        },
+        {
+          "client_id": "134405837793-2sgn9fdp2r1tsal8la8upu1i3l7bf9nu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ehtewa",
+            "certificate_hash": "d246d8c036c5ecba19dbf16ddcd0dad4bda10802"
+          }
+        },
+        {
+          "client_id": "134405837793-kkh2boa8s760saag2m8evl869die87eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1sBawaYjQ8YqIQ7yxbaaShcGR-MVUrKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134405837793-kkh2boa8s760saag2m8evl869die87eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

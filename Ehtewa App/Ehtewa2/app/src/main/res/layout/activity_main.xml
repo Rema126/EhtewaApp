@@ -1,0 +1,38 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fff"
+        >
+
+        <!-- include toolbar layout and give it an id .. -->
+        <include
+            android:id="@+id/tool"
+            layout="@layout/toolbar"
+       />
+
+        <Button
+            android:id="@+id/signIn1"
+            android:layout_width="168dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginBottom="16dp"
+            android:background="#A6336699"
+            android:text="تسجيل الدخول"
+            android:onClick="signIn"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="164dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="395dp"
+            android:layout_marginBottom="300dp"
+            android:background="#A6336699"
+            android:onClick="signUp"
+            android:text="مستخدم جديد"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>

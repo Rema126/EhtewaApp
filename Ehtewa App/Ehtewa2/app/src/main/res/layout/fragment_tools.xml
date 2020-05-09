@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fff"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:text="إحتِوَاءْ"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:id="@+id/text_tools"
+        android:layout_width="174dp"
+        android:layout_height="211dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/passChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="268dp"
+        android:onClick="changepassword"
+        android:text="تغيير كلمة المرور"
+        android:textAlignment="center"
+        android:textColor="#336699"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/deleteAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:onClick="deleteAccount"
+        android:text="حذف الحساب"
+        android:textAlignment="center"
+        android:textColor="#336699"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/passChange"
+        app:layout_constraintTop_toBottomOf="@+id/passChange" />
+
+    <TextView
+        android:id="@+id/signOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="signOut"
+        android:text="تسجيل الخروج"
+        android:textAlignment="center"
+        android:textColor="#336699"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/deleteAccount"
+        app:layout_constraintTop_toBottomOf="@+id/deleteAccount" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

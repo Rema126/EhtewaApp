@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F3F4"
+    android:gravity="bottom"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/sendButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_menu_send" />
+
+        <EditText
+            android:id="@+id/messageArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:hint=" اكتب رسالة.. "
+            android:maxHeight="80dp"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/blue" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

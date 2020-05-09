@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fff"
+    android:orientation="vertical"
+    tools:context=".AboutUs">
+
+    <include
+        android:id="@+id/tool"
+        layout="@layout/toolbar"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="إحتِوَاءْ"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="70dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="-70dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="تطبيق احتواء يهتم بتقديم استشارات تربوية ونفسية متعلقة بذوي الاحتياجات الخاصة من قبل استشاريين ذو كفاءة عالية"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="40dp">
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="96dp"
+            android:layout_height="89dp"
+            android:onClick="Twitter"
+            android:src="@drawable/twitter3" />
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="96dp"
+            android:layout_height="89dp"
+            android:onClick="facebook"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/whatsapp"
+            android:layout_width="96dp"
+            android:layout_height="89dp"
+            android:onClick="whatsapp"
+            android:src="@drawable/whatsapp" />
+
+        <ImageView
+            android:id="@+id/gmail"
+            android:layout_width="96dp"
+            android:layout_height="89dp"
+            android:onClick="gmail"
+            android:src="@drawable/gmail" />
+    </LinearLayout>
+
+</LinearLayout>
+

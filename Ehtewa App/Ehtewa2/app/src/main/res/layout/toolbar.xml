@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#336699"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:layout_alignParentStart="false"
+    android:layout_alignParentTop="false"
+    android:layout_alignParentEnd="false"
+    android:layout_centerHorizontal="false"
+    android:layoutDirection="rtl"
+    android:id="@+id/toolbar"  >
+
+</androidx.appcompat.widget.Toolbar>
